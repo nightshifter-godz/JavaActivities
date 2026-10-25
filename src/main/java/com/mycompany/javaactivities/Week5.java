@@ -74,7 +74,7 @@ public class Week5 {
 
     int[] sortedScores = scores.clone();
 
-    // Sorting a copy keeps the original array unchanged.
+    // Sort the copy so the original stays the same.
 
     java.util.Arrays.sort(sortedScores);
 
@@ -101,7 +101,7 @@ public class Week5 {
         students[i] = new Student(names[i], quizData[i]);
     }
 
-    // Sort from highest average to lowest average.
+    // Sort from highest average to lowest.
 
     for (int i = 0; i < students.length - 1; i++) {
 
@@ -133,7 +133,7 @@ public class Week5 {
     String searchName = "Maria";
     int foundRank = -1;
 
-    // Check each student until the name is found.
+    // Search for the student name.
 
     for (int i = 0; i < students.length; i++) {
 
