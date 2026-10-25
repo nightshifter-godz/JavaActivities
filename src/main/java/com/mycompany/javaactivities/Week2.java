@@ -53,18 +53,18 @@ public class Week2 {
     
         System.out.println("\n=========== Compound Growth ===========");
 
-        double savings = 500;
+        double balance = 500;
 
-        // tracking my savings while using compound assignments
+        // tracking the balance while using compound assignments
         // to see how it increases overtime.
-        savings += 200;
-        System.out.println("\nAfter adding leftover allowance: " + savings);
+        balance += 200;
+        System.out.println("\nAfter adding 200: " + balance);
 
-        savings *= 1.05;
-        System.out.println("After 5% growth: " + savings);
+        balance *= 1.05;
+        System.out.println("After 5% growth: " + balance);
 
-        savings += 300;
-        System.out.println("After saving again: " + savings);
+        balance += 300;
+        System.out.println("After saving again: " + balance);
 
 
         System.out.println("\n=========== Increment Tracker ===========\n");
